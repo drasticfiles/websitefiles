@@ -19,7 +19,7 @@ global.location = "Kenya, Nairobi, pangani" //ur location
 
 //new
 global.botname = "Cheems Bot MD V7"
-global.ownernumber = '923470027813'
+global.ownernumber = '254736958034'
 global.ownername = '🦄드림 가이Khalid'
 global.ownerNumber = ["254736958034@s.whatsapp.net"]
 global.ownerweb = "https://t.me/dextrousmodsKENYA"
