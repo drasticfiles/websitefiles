@@ -10,27 +10,27 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['923470027813'] //ur owner number
-global.ownernomer = "923470027813" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: xIKRATOSx" //ur yt chanel name
-global.socialm = "GitHub: xIKRATOSx" //ur github or insta name
-global.location = "Pakistan, Punjab, Gujranwala" //ur location
+global.owner = ['254736958034'] //ur owner number
+global.ownernomer = "254736958034" //ur owner number2
+global.ownername = "🦄Khalid-tech" //ur owner name
+global.ytname = "YT: DEXTEROUS MODS" //ur yt chanel name
+global.socialm = "GitHub: khalid-niccur" //ur github or insta name
+global.location = "Kenya, Nairobi, pangani" //ur location
 
 //new
 global.botname = "Cheems Bot MD V7"
 global.ownernumber = '923470027813'
-global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["923470027813@s.whatsapp.net"]
-global.ownerweb = "https://youtube.com/@xIKRATOSx"
-global.websitex = "https://youtube.com/@xIKRATOSx"
-global.wagc = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
+global.ownername = '🦄드림 가이Khalid'
+global.ownerNumber = ["254736958034@s.whatsapp.net"]
+global.ownerweb = "https://t.me/dextrousmodsKENYA"
+global.websitex = "https://t.me/dextrousmodsKENYA"
+global.wagc = "https://t.me/dextrousmodsKENYA"
 global.themeemoji = '🥀'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/xIKRATOSx/XeonBotV7' //script link
 global.packname = "Sticker By"
-global.author = "Cheems Bot\n\n\nA whatsapp bot developed by\n🦄xIKRATOSx\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +923470027813"
-global.creator = "923470027813@s.whatsapp.net"
+global.author = "Cheems Bot\n\n\nA whatsapp bot developed by\n🦄xKHALID-techx\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +923470027813"
+global.creator = "254736958034@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.port = '5000'
 
