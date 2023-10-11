@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Hi';
+    src: url(/static/founders-grotesk-bold.woff2) format('woff2');
+}
+
+:root {
+    --start-color: #FF4D4D;
+    --end-color: #F9CB28;
+		--start-color-2: #7928CA;
+    --end-color-2: #FF0080;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 63px !important;
+    }
+
+    .about-container {
+        flex-direction: column
+    }
+
+    .about-container img {
+        display: block;
+        margin: auto;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+#about {
+    z-index: 9999;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#donors {
+    z-index: 999;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 8% 8%;
+}
+
+#donors h2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, var(--start-color), var(--end-color));
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 283px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    z-index: 2;
+		cursor: pointer;
+}
+
+
+.card .title {
+    font-family: 'Hi';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #23211f;
+    margin-bottom: 5px;
+}
+
+.card .desc {
+    font-size: 17px;
+    opacity: 0.8;
+    color: black;
+    margin-bottom: 3px;
+    font-family: system-ui;
+}
+
+.card .cta {
+    padding: 20px 20px 5px;
+    font-family: 'Hi';
+}
+
+.card .cta::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card .amount {
+    float: center;
+    color: royalblue;
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 2px;
+    transition: color 0.3s ease-in-out;
+    margin-top: 4px;
+}
+
+.about-container img {
+    border-radius: 25%;
+    width: 300px
+}
+
+#about p {
+    color: #fff;
+    font-size: 26px;
+    line-height: 2rem;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.header-content {
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+
+li {
+    z-index: 2;
+}
+
+
+.nav-wrapper {
+    z-index: 3 !important;
+    justify-content: center !important;
+    margin-top: 26px !important;
+}
+
+.mobile ul.nav-list {
+    z-index: 3 !important;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    max-height: 100vh;
+    overflow: hidden
+}
+
+
+h1 {
+    font-family: 'Hi';
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Hi';
+    font-size: 60px;
+}
+
+li {
+    font-size: 24px;
+    z-index: 2 !important;
+}
+
+p {
+    font-size: 32px;
+    margin-top: 10px;
+    color: #ffffffc9;
+    font-family: system-ui;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.hero-button {
+    padding: 0 25px 0 25px;
+    border-radius: 5px;
+    height: 54px;
+    min-width: 205px;
+    line-height: 38px;
+    color: #000;
+    background: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    border: 2px solid #000;
+    z-index: 2;
+}
+
+.hero-button:hover {
+    color: white;
+    background-color: #000;
+    border: 2px solid white;
+}
+
+.shine {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(-45deg , #007CF0, #00DFD8, var(--start-color-2), var(--end-color-2), var(--start-color), var(--end-color));
+		animation: gradient 5s ease-in-out infinite;
+		background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
